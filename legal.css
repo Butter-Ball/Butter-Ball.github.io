@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	background-color: black;
+}
+
+#banner {
+	color: black;
+	background-color: white;
+	border-bottom: 8px solid #333333;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+#highlight {
+	font-weight: bold;
+}
+
+
+#whisper {
+	font-size: .9rem;
+}
+
+
+
+h2 {
+	margin-bottom: 1rem;
+	text-decoration: underline;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+ul {
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+ul li {
+	margin-bottom: 1.2rem;
+	font-size: 1.8rem;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	text-align: center;
+	margin-top: 2rem;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.4rem;
+}
+
+/* --- Responsive for home page */
+
+
+/* This is for small screens (don't touch) */
+ @media screen and (max-width: 48em){
+	h1 {
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	h2 {
+		margin: 0 auto;
+		width: 90%;
+	}
+	
+	img {
+		display: none;
+	}
+	
+ }
+ 
+ /* This is specifically for desktop */
+ @media screen and (min-width: 48em){
+	h1 {
+		width: 80%;
+		text-align: left;
+	}
+	
+	h2 {
+		
+		text-align: left;
+	}
+	
+	ul {
+		width: 100%;
+	}
+	
+	h1 {
+		margin-left: 10%;
+	}
+	
+	#usTimeZones {
+		width: 50%;
+	}
+	
+	#listarea {
+		width: 40%;
+		display: inline-block;
+		margin-left: 10%;
+		position: relative;
+	}
+	
+	img {
+		width: 25%;
+		border-radius: 100%;
+		position: absolute;
+		margin-top: 7%;
+		
+	}
+	
+	p {
+		width: 90%;
+		margin-left: 10%;
+		text-align: left;
+	}
+ }
+
+
+
+
+
+/* ========== clock pages    =======*/
+
+
+.clockwrapper {
+	width: 100%;
+	margin-top: 20vh;
+}
+
+.clock {
+	width: 80%;
+	margin-left: 20%;
+	color: white;
+	font-size: 2rem;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+.clocktitle {
+	margin-left: 20%;
+	width: 80%;
+	margin-bottom: 2rem;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/*----------- responsive (desktop) for clocks -------------*/
+
+ @media screen and (min-width: 48em){
+	 .clock {
+		width: 50%;
+		margin-left: 37%;
+		font-size: 3rem;
+	 }
+	 
+	 .clocktitle {
+		 width: 50%;
+		 margin-left: 37%;
+		font-size: 4rem;
+	 }
+ }
+
+
