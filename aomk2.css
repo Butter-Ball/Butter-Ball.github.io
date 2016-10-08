@@ -6,15 +6,30 @@ h1 {
 
 #subtext {
 	font-size: 1.4rem;
+	
+	color: white;
+	text-shadow: 2px 2px 2px black;
 }
 
-.filler {
-	margin: 0;
-	padding: 0;
+.indent {
+	text-indent: 50px;
 }
 
 .jumbotron {
 	padding-top: 3rem;
+	min-width: 100%;
+	max-width: 100%;
+	background-image: url("oneman.jpg");
+	background-position: -700px -300px;
+}
+
+#mainHeader {
+	font-size: 3rem;
+	min-width: 100%;
+	max-width: 100%;
+	
+	color: white;
+	text-shadow: 2px 2px 2px black;
 }
 
 .highlight {
@@ -34,8 +49,27 @@ h1 {
 
 /* === Desktop Only ================== */
 
-@media screen and (min-width: ){
-	.jubotron {
-		padding-top: 2rem;
+@media screen and (min-width: 1024px){
+	.jumbotron {
+		padding-top: 6rem;
+		background-image: url("2soldiers.jpg");
+		background-size: cover;
+		background-position: 0 -150px ;
+	}
+	
+	#mainHeader {
+		font-size: 6rem;
+		color: white;
+		text-shadow: 2px 2px 2px black;
+	}
+	
+	#subtext {
+		font-size: 2rem;
+		color: white;
+		text-shadow: 2px 2px 2px black;
+	}
+	
+	.card {
+		margin-right: 2rem;
 	}
 }
