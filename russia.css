@@ -1,0 +1,40 @@
+.huge-wrapper {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.container{
+	width: 30%;
+	background-color: red;
+	margin: 30vh auto;
+	text-align: center;
+	padding: 50px 20px;
+	box-shadow: -10px 10px 5px grey;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+.container2 {
+	width: 30%;
+	background-color: red;
+	margin: 30vh auto;
+	text-align: center;
+	padding: 50px 20px;
+	border: 2px solid black;
+}
+
+.text, .text2 {
+	font-family: arial;
+	font-size: 2em;
+}
+
+.give-background {
+	background-image: url('http://vignette4.wikia.nocookie.net/captainplanet/images/d/d5/Flag_of_USSR.png/revision/latest?cb=20150401081645');
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
