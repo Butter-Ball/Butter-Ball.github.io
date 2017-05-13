@@ -9,7 +9,6 @@ $(".container").click(function(){
 	$(".huge-wrapper").addClass("give-background");
 	
 	
-	$(".container2").css("background-color", "#BC0000");
 	$(".container2").css("border", "0px");
 	$(".container2").css("color", "white");
 	
