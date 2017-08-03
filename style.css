@@ -1,0 +1,58 @@
+body {
+	min-width: 100%;
+	max-width: 100%!important;
+	max-height: 100%!important;
+	position: absolute!important;
+	top: 0!important;
+	left: 0!important;
+	float: none!important;
+	margin: 0;
+}
+
+
+.calm-button {
+	width: 30%;
+	background-color: #3366ff;
+	margin: 30vh auto;
+	text-align: center;
+	padding: 50px 20px;
+	box-shadow: -10px 10px 5px grey;
+	border: 2px solid black;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 3rem;
+	color: white;
+}
+
+.thanks-img {
+	width: 100%;
+}
+
+.thanks-div {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.video-wrapper {
+	position: fixed;
+	width: 80%;
+	margin-left: 10%;
+	z-index: 1001;
+}
+
+#clip {
+	width: 100%;
+}
+/*
+
+.pepe-img {
+	width: 50px;
+	height: 50px;
+}
+
+*/
