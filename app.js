@@ -99,7 +99,7 @@ function showBlunt() { /* This is a special funtion to show a bigger image at th
 }
 
 function showOh() {
-	showThisBig("oh.jpg");
+	showThisBig("oh.JPG");
 }
 
 function showTripple() {
